@@ -8,7 +8,7 @@ if (empty($_SESSION['admin']) OR empty($_SESSION['type'])) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Edit Room - HMS</title>
+	<title>Edit Room Number - HMS</title>
 	<link rel="stylesheet" type="text/css" href="../assets/style.css">
 </head>
 <body>
@@ -25,7 +25,7 @@ if (empty($_SESSION['admin']) OR empty($_SESSION['type'])) {
 
 			?>
 			<center>
-				<form action="editroom.php?id=<?php echo $id; ?>" method="POST">
+				<form action="editroomnumber.php?id=<?php echo $id; ?>" method="POST">
 				<input type="text" name="number" class="form" value="<?php echo $id; ?>" required="required" disabled="disabled"><br><br>
 				
 				
